@@ -947,7 +947,7 @@ section {
   }
   .menu-btn.active {
     z-index: 999;
-    background: url(/Images/close.svg) no-repeat;
+    background: url(./Images/close.svg) no-repeat;
     background-size: 25px;
     background-position: center;
     transition: 0.3s ease;
