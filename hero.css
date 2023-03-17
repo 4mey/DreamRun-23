@@ -13,6 +13,7 @@
 body {
   background: #000516 !important;
   color: #fff;
+  width: 100vw;
 }
 
 ::-webkit-scrollbar {
