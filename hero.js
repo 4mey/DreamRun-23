@@ -20,8 +20,8 @@ $(document).ready(function () {
     });
   });
   
-  const menuBtn = document.querySelector("./menu-btn");
-  const navigation = document.querySelector(".navigation");
+  const menuBtn = document.querySelector("menu-btn");
+  const navigation = document.querySelector("navigation");
   
   menuBtn.addEventListener("click", () => {
     menuBtn.classList.toggle("active");
@@ -29,7 +29,7 @@ $(document).ready(function () {
   });
   
   const btns = document.querySelectorAll(".nav-btn");
-  const slides = document.querySelectorAll(".img-slide");
+  const slides = document.querySelectorAll("./img-slide");
   const contents = document.querySelectorAll(".content");
   
   var slidernav = function (manual) {
